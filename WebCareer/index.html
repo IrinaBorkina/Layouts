@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebCareer</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic"
         rel="stylesheet">
     <link rel="stylesheet" href="/lib/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body class="page">
@@ -37,9 +39,18 @@
     </div>
 
     <div class="page__row">
-        <div class="page__cell">
+        <div class="page__cell">         
             <nav class="nav">
-                <ul class="nav__list">
+
+                <div class="nav__btn">
+                    <button data-target="#nav-main" type="button" class="btn-nav">
+                        <span class="btn-nav__line"></span>
+                        <span class="btn-nav__line"></span>
+                        <span class="btn-nav__line"></span>
+                    </button>
+                </div>
+
+                <ul class="nav__list" id="nav-main">
                     <li class="nav__item">
                         <a href="#" class="nav__link link">Главная</a>
                     </li>
