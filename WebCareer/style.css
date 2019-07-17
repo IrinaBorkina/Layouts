@@ -127,3 +127,10 @@ body {
     left: 0;
     right: 0;
 }
+
+.headline {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
