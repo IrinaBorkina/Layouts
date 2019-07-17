@@ -222,3 +222,26 @@ body {
 .advantage__icon {
     margin-bottom: 1.2rem;
 }
+
+.page__row--footer {
+    background: #595959;
+    color: #fff;
+    margin-top: 4.375rem;
+}
+
+.footer__copyright {
+    text-align: right;
+}
+
+.footer__link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 1.2rem 0;
+}
