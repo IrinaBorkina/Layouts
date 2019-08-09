@@ -47,6 +47,18 @@
         font-size: 25px;
         margin-bottom: 50px;
     }
+    body .our_process .steps {
+        display: block;
+    }
+    body .our_process .steps h1 {
+        font-size: 20px;
+    }
+    body .our_process .steps p {
+        margin-top: 10px;
+    }
+    body .our_process .back_process {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1260px) {
