@@ -22,10 +22,11 @@ body a.arrowDown:hover {
 body a.btn {
   color: #fc635e;
   text-decoration: none;
-  font-style: 22px;
+  font-size: 20px;
   border: 2px solid #fc635e;
   padding: 12px 22px;
   border-radius: 8px;
+  text-align: center;
 }
 body a.btn:hover {
   background: #fc635e;
@@ -51,6 +52,7 @@ body h1.main_header {
   margin: 0;
   text-transform: uppercase;
   font-size: 40px;
+  text-align: center;
 }
 body h1.main_header span {
   color: #fc635e;
@@ -228,4 +230,22 @@ body .we_do2 .container h2 {
   border-right: 10px solid #fc635e;
   padding-left: 0;
   padding-right: 20px;
+}
+body .portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .portfolio .container-filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+body .portfolio .container-filter div {
+  width: 200px;
+  height: 150px;
+  background: #868686;
+  border: 1px solid #000;
 }
