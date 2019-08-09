@@ -150,7 +150,6 @@ body {
 
     .expand {
         background: url(../img/expand.png) no-repeat;
-        // min-height: 450px;
         padding: 100px 100px 0;
 
         .mainText {
@@ -192,5 +191,63 @@ body {
             background: url(../img/Our_process.png) center center no-repeat;
             background-size: contain;
         }
+    }
+
+    .we_do1, .we_do2, .we_do3 {
+        background: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .container {
+            padding: 135px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h1, h2, p {
+            color: #868686;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            border-left: 10px solid #fc635e;
+            padding-left: 20px;
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 15px;
+            padding-bottom: 15px;
+        }
+
+        .left {
+            max-width: 38%;
+        }
+
+        .right {
+            max-width: 50%;
+        }
+    }
+
+    .we_do2 {
+        background: none;
+        .container {
+            text-align: right;
+            .left {
+                order: 2;
+            }
+
+            .right {
+                order: 1;
+            }
+            h2 {
+                border-left: none;
+                border-right: 10px solid #fc635e;
+                padding-left: 0;
+                padding-right: 20px;
+            }
+        }
+        
     }
 }
