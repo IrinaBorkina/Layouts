@@ -253,9 +253,44 @@ body {
     }
 
     .portfolio {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+
+        .btn {
+            margin: 40px 0;
+        }
+
+        h1 {
+            margin: 50px 0;
+            border-bottom: 4px;
+            border-bottom: 1px solid #868686;
+            color: #868686;
+        }
+
+        .controls {
+            text-align: center;
+            letter-spacing: 2px;
+            font-size: 20px;
+            border-top: 1px solid #868686;
+            border-bottom: 1px solid #868686;
+            padding: 15px;
+            margin-bottom: 30px;
+
+            button {
+                color: #fc635e;
+                background: transparent;
+                border: none;
+                text-transform: uppercase;
+                font-size: 20px;
+
+                &:hover {
+                    color: #af3c38;
+                    cursor: pointer;
+                }
+            }
+        }
 
         .container-filter {
             width: 100%;
@@ -264,11 +299,57 @@ body {
             flex-wrap: wrap;
             padding: 20px 0;
 
+            #ex1 {
+                background-image: url(../img/portfolio/1.png);
+            }
+            
+            #ex2 {
+                background-image: url(../img/portfolio/2.png);
+            }
+            
+            #ex3 {
+                background-image: url(../img/portfolio/3.png);
+            }
+            
+            #ex4 {
+                background-image: url(../img/portfolio/4.png);
+            }
+            
+            #ex5 {
+                background-image: url(../img/portfolio/5.png);
+            }
+            
+            #ex6 {
+                background-image: url(../img/portfolio/6.png);
+            }
+
             div {
-                width: 200px;
-                height: 150px;
-                background: #868686;
-                border: 1px solid #000;
+                background-size: cover;
+                background-position: center center;
+                margin: 10px;
+                width: 250px;
+                height: 180px;
+
+                .fil {
+
+                    p {
+                        margin: 0;padding: 10px;
+                    }
+
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-weight: bold;
+                    display: none;
+                    position: relative;
+                    margin: 0;
+                    background: url(../img/portfolio/plus.png) rgba(255, 72, 72, 0.75) center no-repeat;
+                }
+
+                &:hover .fil {
+                    cursor: pointer;
+                    display: block;
+                }
             }
         }
     }

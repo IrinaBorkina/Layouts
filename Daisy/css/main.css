@@ -235,6 +235,36 @@ body .portfolio {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 30px;
+}
+body .portfolio .btn {
+  margin: 40px 0;
+}
+body .portfolio h1 {
+  margin: 50px 0;
+  border-bottom: 4px;
+  border-bottom: 1px solid #868686;
+  color: #868686;
+}
+body .portfolio .controls {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border-top: 1px solid #868686;
+  border-bottom: 1px solid #868686;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+body .portfolio .controls button {
+  color: #fc635e;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+body .portfolio .controls button:hover {
+  color: #af3c38;
+  cursor: pointer;
 }
 body .portfolio .container-filter {
   width: 100%;
@@ -243,9 +273,46 @@ body .portfolio .container-filter {
   flex-wrap: wrap;
   padding: 20px 0;
 }
+body .portfolio .container-filter #ex1 {
+  background-image: url(../img/portfolio/1.png);
+}
+body .portfolio .container-filter #ex2 {
+  background-image: url(../img/portfolio/2.png);
+}
+body .portfolio .container-filter #ex3 {
+  background-image: url(../img/portfolio/3.png);
+}
+body .portfolio .container-filter #ex4 {
+  background-image: url(../img/portfolio/4.png);
+}
+body .portfolio .container-filter #ex5 {
+  background-image: url(../img/portfolio/5.png);
+}
+body .portfolio .container-filter #ex6 {
+  background-image: url(../img/portfolio/6.png);
+}
 body .portfolio .container-filter div {
-  width: 200px;
-  height: 150px;
-  background: #868686;
-  border: 1px solid #000;
+  background-size: cover;
+  background-position: center center;
+  margin: 10px;
+  width: 250px;
+  height: 180px;
+}
+body .portfolio .container-filter div .fil {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  display: none;
+  position: relative;
+  margin: 0;
+  background: url(../img/portfolio/plus.png) rgba(255, 72, 72, 0.75) center no-repeat;
+}
+body .portfolio .container-filter div .fil p {
+  margin: 0;
+  padding: 10px;
+}
+body .portfolio .container-filter div:hover .fil {
+  cursor: pointer;
+  display: block;
 }
